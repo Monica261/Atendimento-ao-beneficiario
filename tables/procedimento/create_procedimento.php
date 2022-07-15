@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Inserir Procedimento</title>
+</head>
+
+<body>
+    <div class="container mt-5 mb-5">
+        <div clas="span10 offset1">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center"> Mônica Torres </h3>
+                    <h3 class="text-center"> Inserir Procedimento </h3>
+                </div>
+                <div class="card-body">
+                    <form class="form-horizontal" action="contato_procedimento.php" method="post">
+                        <label>Descrição do Procedimento:</label>
+                        <input type="text" class="form-control" name="desc_proc" id="desc_proc" placeholder="Descrição do Procedimento" required="true"><br>
+                        <label>Tipo do Procedimento:</label>
+                        <input type="text" class="form-control" name="tipo_proc" id="tipo_proc" placeholder="Tipo do Procedimento" required="true"><br>
+
+                        <div class="form-actions">
+                            <br />
+                            <button type="submit" class="btn btn-lg btn-primary">Adicionar</button>
+                            <a href="../../index_procedimento.php" type="btn" class="btn btn-lg btn-dark">Voltar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+<?php include("../../footer.php"); ?>
+
+</html>

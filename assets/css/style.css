@@ -1,0 +1,124 @@
+p, a, input, th, td{
+  font-size: 17px!important;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.btn{
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+h2, th{
+  text-transform: uppercase;
+}
+
+i{
+  color: #fff!important;
+  font-size: 25px!important;
+}
+
+.btn:hover{
+  background: #A9A9A9!important;
+  border-color: #A9A9A9!important;
+}
+
+.navbar{
+  background: #4682B4!important;
+}
+
+.navbar a{
+  color: #fff!important;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: 0.3s ease;
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  border-bottom: 2px solid white;
+  padding: 0px 2px;
+}
+
+.questoes, .perfil{
+  margin:110px 0px;
+}
+
+.projeto{
+  background: url('../img/santa_casa_saude.jpg') no-repeat top center fixed;
+  padding: 40px;
+}
+
+.footer{
+  background: #4682B4;
+  padding: 40px;
+}
+
+.footer h3, .footer a, .footer p{
+  color: #fff;
+}
+
+.copy{
+  border-top: 2px solid #A9A9A9;
+}
+
+.botao-whats {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.botao-whats{
+-webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+-moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+-ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+.botao-whats i{
+  font-size:38px!important;
+}
+
+.botao-whats:hover{
+  color: #fff;
+}
+
+.home-aten h2, .home-bene h2, .home-espe h2,
+.home-local h2, .home-med h2, .home-pro h2{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card{
+  margin-bottom: 120px!important;
+}
+
+@media (max-width: 767px){
+  .portfolio img{
+    width: 280px;
+    margin: 10px auto;
+    display: block;
+  }
+}
